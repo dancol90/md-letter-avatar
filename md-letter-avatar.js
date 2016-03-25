@@ -6,7 +6,7 @@
  */
 'use strict';
 
-angular.module('md-letter-avatar', [])
+angular.module('mdLetterAvatar', [])
 
 .constant('defaults', {
     length:     1,
