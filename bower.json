@@ -1,0 +1,15 @@
+{
+    "name": "md-letter-avatar",
+ 	"main": "./md-letter-avatar.js",
+	"version": "1.0.0",
+	"keywords": [
+		"angular",
+		"materialdesign",
+		"mdletteravatar",
+		"letteravatar",
+		"letterimage"
+	],
+	"dependencies": {
+		"angular": "*"
+	}
+}
