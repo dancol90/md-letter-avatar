@@ -9,6 +9,7 @@
 		"letteravatar",
 		"letterimage"
 	],
+	"ignore": [],
 	"dependencies": {
 		"angular": "*"
 	}
