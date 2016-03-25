@@ -1,6 +1,7 @@
 # md-letter-avatar
 
-AngularJS directive for Android-like Material Design avatars (uppercase letter(s) on solid background color)
+AngularJS directive for Android-like Material Design avatars (uppercase letter(s) on solid background color).
+
 Based on ngletteravatar by uttesh (http://uttesh.com/ngletteravatar/)
 
 ## Install
