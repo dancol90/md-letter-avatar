@@ -86,7 +86,7 @@ function getInlineData(svg) {
 }
 
 function getHash(text){
-    return text.split('').reduce(function(h, v) { console.log(v, h); return (h*37 + v.charCodeAt()) & 0xff; }, 0);
+    return text.split('').reduce(function(h, v) { return (h*37 + v.charCodeAt()) & 0xff; }, 0);
 }
 
 function getInitials(text, count) {
