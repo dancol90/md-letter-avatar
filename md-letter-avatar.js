@@ -64,14 +64,15 @@ angular.module('mdLetterAvatar', [])
                 
                 svg.append(createTextTag(params));
                 
+                var image = angular.element('<img src="' + getInlineData(svg) + '" height="100%" width="100%" />');
+
                 if(params.border)
-                    svg.css("border", params.border === 'default' ? defaults.border : params.border);
+                    image.css("border", params.border === 'default' ? defaults.border : params.border);
                 
                 if(params.shape === 'round')
-                    svg.css("border-radius", defaults.radius);
+                    image.css("border-radius", defaults.radius);
 
-                
-                element.html('<img src="' + getInlineData(svg) + '" height="100%" width="100%" />');
+                element.empty().append(image);
             });
         }
     };
